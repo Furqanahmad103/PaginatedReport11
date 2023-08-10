@@ -1,0 +1,42 @@
+{
+  "config": "{\"version\":\"5.44\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU04\",\"version\":\"5.46\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY23SU04",
+            "path": "BaseThemes/CY23SU04.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"c4eeb824c4be1c970e0d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.597322175732218,\"y\":290.66175732217573,\"z\":1,\"width\":823.9986610878661,\"height\":274.2092050209205,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Table.Column1\"},{\"queryRef\":\"Table.Column2\"},{\"queryRef\":\"Table.Column3\"},{\"queryRef\":\"Table.Column4\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Table\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Column1\"},\"Name\":\"Table.Column1\",\"NativeReferenceName\":\"Column1\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Column2\"},\"Name\":\"Table.Column2\",\"NativeReferenceName\":\"Column2\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Column3\"},\"Name\":\"Table.Column3\",\"NativeReferenceName\":\"Column3\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Column4\"},\"Name\":\"Table.Column4\",\"NativeReferenceName\":\"Column4\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 274.21,
+          "width": 824.00,
+          "x": 9.60,
+          "y": 290.66,
+          "z": 1.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
